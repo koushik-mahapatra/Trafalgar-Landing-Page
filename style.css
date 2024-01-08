@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1600px;
+  height: 5870px;
+  top: -504px;
+  left: -637px;
+}
+header {
+  position: absolute;
+  background-color: #ffffff;
+  width: 1487px;
+  height: 719px;
+  top: 56px;
+  left: -50px;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo {
+  display: flex;
+  width: 160px;
+  height: 41px;
+  top: 56px;
+  left: 191px;
+}
+
+.logo-img {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: 56px;
+  left: 191px;
+}
+
+.logo-t {
+  position: absolute;
+  width: 17px;
+  height: 32px;
+  top: 61px;
+  left: 204px;
+  color: #ffffff;
+  font-family: Muli;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.logo-text {
+  position: absolute;
+  width: 107px;
+  height: 30px;
+  top: 62px;
+  left: 244px;
+  font-family: Muli;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #233348;
+}
+.nav-items {
+  position: absolute;
+  display: flex;
+  width: 545px;
+  height: 23px;
+  top: 70px;
+  left: 863px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-items > li {
+  justify-content: space-between;
+  cursor: pointer;
+}
+.element {
+  position: absolute;
+  width: 131px;
+  height: 115px;
+  top: 160px;
+  opacity: 0.3px;
+}
+.header-text {
+  position: absolute;
+  width: 445px;
+  height: 338px;
+  top: 283px;
+  left: 190px;
+  border-radius: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-text h2 {
+  /* position: absolute; */
+  width: 427px;
+  height: 112px;
+
+  font-family: Muli;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.header-text p {
+  /* position: absolute;
+  top: 420px; */
+  /* left: 190px; */
+
+  width: 445px;
+  height: 96px;
+  font-family: Muli;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.header-text button {
+  width: 200px;
+  height: 60px;
+  border-radius: 55px;
+  font-family: Muli;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #ffffff;
+  background-color: #458ff6;
+}
+
+.header-img img {
+  position: absolute;
+  width: 693px;
+  height: 598px;
+  top: 177px;
+  left: 744px;
+}
